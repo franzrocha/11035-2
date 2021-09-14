@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge /">
+        <meta name="viewport" content="width=device-width, initial-scale
+        1.0" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        
+    
+        <title>Calculator</title>
+        </head>
+        <body>
+            <script src="script.js"></script>
+               
+            <div class="jumbotron">
+            <h1>Interactive Calculator</h1>
+            <button class="light-mode-button" 
+            aria-label="Toggle Light Mode" 
+            onclick="toggle_light_mode()">
+            <span></span>
+            <span></span>
+        </button> 
+             <form class = "input">
+            <p>Input first number:</p>
+            <input type = "text" id = "num1"><br><br>
+            <p>Input second number:</p>
+            <input type = "text" id = "num2"><br><br>
+            <input type="button" class="btn btn-primary" onClick = "add_number()" Value = "+">
+            <input type="button" class="btn btn-secondary" onClick = "sub_number()" Value = "-">
+            <input type="button" class="btn btn-warning" onClick = "multiply_number()" Value = "*">
+            <input type="button" class="btn btn-danger" onClick = "divide_number()" Value = "/">
+            <br><br><br>
+            <p>Result :</p> 
+            <input type="text" id="txtresult" name="TextBox3">
+            <br>
+            </form>
+            </div>  
+          
+    
+            
+              
+        </body>
+        </html>
